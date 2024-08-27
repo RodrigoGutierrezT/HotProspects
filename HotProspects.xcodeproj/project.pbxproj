@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B15E4472C7E9A43008166DF /* ImageInterpolationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B15E4462C7E9A43008166DF /* ImageInterpolationView.swift */; };
 		5BF8B6482C7D6A090084C5E7 /* HotProspectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B6472C7D6A090084C5E7 /* HotProspectsApp.swift */; };
 		5BF8B64A2C7D6A090084C5E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B6492C7D6A090084C5E7 /* ContentView.swift */; };
 		5BF8B64C2C7D6A0A0084C5E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF8B64B2C7D6A0A0084C5E7 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B15E4462C7E9A43008166DF /* ImageInterpolationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInterpolationView.swift; sourceTree = "<group>"; };
 		5BF8B6442C7D6A090084C5E7 /* HotProspects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotProspects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF8B6472C7D6A090084C5E7 /* HotProspectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotProspectsApp.swift; sourceTree = "<group>"; };
 		5BF8B6492C7D6A090084C5E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				5BF8B6562C7D6AE90084C5E7 /* ListWithSelectionView.swift */,
 				5BF8B6582C7D6E9F0084C5E7 /* TabNavigationView.swift */,
 				5BF8B65A2C7D731C0084C5E7 /* ResultTypeView.swift */,
+				5B15E4462C7E9A43008166DF /* ImageInterpolationView.swift */,
 			);
 			path = Snippets;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				5BF8B65B2C7D731C0084C5E7 /* ResultTypeView.swift in Sources */,
 				5BF8B6592C7D6E9F0084C5E7 /* TabNavigationView.swift in Sources */,
 				5BF8B64A2C7D6A090084C5E7 /* ContentView.swift in Sources */,
+				5B15E4472C7E9A43008166DF /* ImageInterpolationView.swift in Sources */,
 				5BF8B6572C7D6AE90084C5E7 /* ListWithSelectionView.swift in Sources */,
 				5BF8B6482C7D6A090084C5E7 /* HotProspectsApp.swift in Sources */,
 			);
