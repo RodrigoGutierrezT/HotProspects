@@ -13,6 +13,7 @@
 		5BF8B64F2C7D6A0A0084C5E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF8B64E2C7D6A0A0084C5E7 /* Preview Assets.xcassets */; };
 		5BF8B6572C7D6AE90084C5E7 /* ListWithSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B6562C7D6AE90084C5E7 /* ListWithSelectionView.swift */; };
 		5BF8B6592C7D6E9F0084C5E7 /* TabNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B6582C7D6E9F0084C5E7 /* TabNavigationView.swift */; };
+		5BF8B65B2C7D731C0084C5E7 /* ResultTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B65A2C7D731C0084C5E7 /* ResultTypeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5BF8B64E2C7D6A0A0084C5E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5BF8B6562C7D6AE90084C5E7 /* ListWithSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithSelectionView.swift; sourceTree = "<group>"; };
 		5BF8B6582C7D6E9F0084C5E7 /* TabNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationView.swift; sourceTree = "<group>"; };
+		5BF8B65A2C7D731C0084C5E7 /* ResultTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTypeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				5BF8B6562C7D6AE90084C5E7 /* ListWithSelectionView.swift */,
 				5BF8B6582C7D6E9F0084C5E7 /* TabNavigationView.swift */,
+				5BF8B65A2C7D731C0084C5E7 /* ResultTypeView.swift */,
 			);
 			path = Snippets;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF8B65B2C7D731C0084C5E7 /* ResultTypeView.swift in Sources */,
 				5BF8B6592C7D6E9F0084C5E7 /* TabNavigationView.swift in Sources */,
 				5BF8B64A2C7D6A090084C5E7 /* ContentView.swift in Sources */,
 				5BF8B6572C7D6AE90084C5E7 /* ListWithSelectionView.swift in Sources */,
