@@ -5,6 +5,7 @@
 //  Created by Rodrigo on 28-08-24.
 //
 
+import CodeScanner
 import SwiftData
 import SwiftUI
 
@@ -15,6 +16,7 @@ struct ProspectsView: View {
     
     @Environment(\.modelContext) var modelContext
     @Query(sort: \Prospect.name) var prospects: [Prospect]
+    @State private var isShowingScanner = false
     let filter: FilterType
     
     var title: String {
@@ -54,12 +56,31 @@ struct ProspectsView: View {
             .navigationTitle(title)
             .toolbar {
                 Button("Scan", systemImage: "qrcode.viewfinder") {
-                    let prospect = Prospect(name: "Paul", emailAddress: "Paul@gmail.com", isContacted: false)
-                    modelContext.insert(prospect)
+                    isShowingScanner = true
                 }
+            }
+            .sheet(isPresented: $isShowingScanner) {
+                CodeScannerView(codeTypes: [.qr], simulatedData: "Paul Hudson\npaul@mail.com" ,completion: handleScan)
             }
         }
     }
+    
+    func handleScan(result: Result<ScanResult, ScanError>) {
+        isShowingScanner = false
+        
+        switch result {
+        case .success(let result):
+            let details = result.string.components(separatedBy: "\n")
+            guard details.count == 2 else { return }
+            
+            let person = Prospect(name: details[0], emailAddress: details[1], isContacted: false)
+            modelContext.insert(person)
+            
+        case .failure(let error):
+            print("Scanning failed: \(error.localizedDescription)")
+        }
+    }
+    
 }
 
 #Preview {

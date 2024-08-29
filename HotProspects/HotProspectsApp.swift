@@ -5,7 +5,6 @@
 //  Created by Rodrigo on 26-08-24.
 //
 
-import SamplePackage
 import SwiftData
 import SwiftUI
 
