@@ -78,9 +78,9 @@
 				5BF8B6472C7D6A090084C5E7 /* HotProspectsApp.swift */,
 				5B15E4512C7FE8CB008166DF /* ProspectsView.swift */,
 				5B15E4532C7FE8D9008166DF /* MeView.swift */,
+				5B15E4552C7FEC1B008166DF /* Prospect.swift */,
 				5BF8B64D2C7D6A0A0084C5E7 /* Preview Content */,
 				5BF8B6552C7D6AC00084C5E7 /* Snippets */,
-				5B15E4552C7FEC1B008166DF /* Prospect.swift */,
 			);
 			path = HotProspects;
 			sourceTree = "<group>";
